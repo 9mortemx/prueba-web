@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f2eb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.cabecera-principal {
+    text-align: center;
+    background-color: #1a252f;
+    color: #f1c40f;
+    padding: 30px 20px;
+    border-bottom: 4px solid #f39c12;
+}
+
+.logo-top {
+    width: 250px; /* Ajustado para que se aprecie bien tu imagen de Gondolin */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 8px;
+}
+
+/* Formularios */
+.box-formulario {
+    background: white;
+    padding: 25px;
+    border: 1px solid #e0dacf;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.form-table {
+    width: 100%;
+}
+
+.form-table td {
+    padding: 8px;
+    border: none;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #219a52;
+}
+
+/* Tablas de datos */
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+
+.tabla-datos th, .tabla-datos td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-datos th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.tabla-datos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn-editar { color: #2980b9; font-weight: bold; text-decoration: none; }
+.btn-eliminar { color: #c0392b; font-weight: bold; text-decoration: none; }
+.btn-cancelar { color: #7f8c8d; margin-left: 15px; }
+
+/* Panel de Totales */
+.panel-totales {
+    background: white;
+    border: 2px solid #f39c12;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.panel-totales p { margin: 5px 0; font-size: 1.1em; }
+
+/* Footer */
+footer {
+    background-color: #1a252f;
+    color: #bdc3c7;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 50px;
+    height: auto;
+}
